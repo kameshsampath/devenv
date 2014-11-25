@@ -1,0 +1,310 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"portal",
+				"portal_license"
+			],
+			[
+				"dec",
+				"describe"
+			],
+			[
+				"depl",
+				"deploy_branch"
+			],
+			[
+				"if",
+				"ife	if … else … end"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "metadata.rb",
+			"settings":
+			{
+				"buffer_size": 478,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"javacr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/http/sites-available/haproxy_notworking",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/scripts/ubuntu_firewall_rules.sh",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/http/sites-available/portal.example.com",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/http/sites-available/example.com",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/cookbooks/liferay/recipes/jboss_cluster.rb",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/cookbooks/liferay/recipes/jboss.rb",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/environments/cluster.json",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/http/sites-available/default",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/http/sites-available/cluster.portal.example.com",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/cookbooks/liferay/recipes/cluster_deployer.rb",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/Vagrantfile",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/data_bags/apps/liferay.json",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/cookbooks/opendj/attributes/default.rb",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/cookbooks/opendj/files/default/example.ldif",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/environments/vagrant.json",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/roles/opendj-standalone.json",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/scripts/web.sh",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/scripts/rhel_firewall_rules.sh",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/http/example.com/html/downloads/README_FILES.txt",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/http/example.com/html/licenses/README_LICENSE.txt",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/http/example.com/html/.htpasswd",
+		"/Users/kameshs/Projects/gs2014_liferaychef_demo/http/example.com/html/index.html",
+		"/Users/kameshs/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/kameshs/tmp/liferay_cookbook_pilot/roles/opendj-standalone.rb",
+		"/Users/kameshs/tmp/liferay_cookbook_pilot/data_bags/apps/liferay.json",
+		"/Users/kameshs/tmp/liferay_cookbook_pilot/Vagrantfile",
+		"/Users/kameshs/tmp/liferay_cookbook_pilot/README.md",
+		"/Users/kameshs/tmp/liferay_cookbook_pilot/data_bags/postgresql.json",
+		"/Users/kameshs/tmp/liferay_cookbook_pilot/data_bags/jboss.json",
+		"/Users/kameshs/tmp/liferay_cookbook_pilot/data_bags/liferay.json",
+		"/Users/kameshs/tmp/liferay_cookbook_pilot/data_bags/mysql.json",
+		"/Users/kameshs/tmp/liferay_cookbook_pilot/data_bags/opendj.json",
+		"/Users/kameshs/tmp/liferay_cookbook_pilot/data_bags/credentials_jboss_plain.json",
+		"/Users/kameshs/tmp/liferay_cookbook_pilot/data_bags/credentials_liferay_plain.json",
+		"/Users/kameshs/tmp/liferay_cookbook_pilot/data_bags/credentials_mysql_plain.json",
+		"/Users/kameshs/tmp/liferay_cookbook_pilot/data_bags/credentials_postgresql_plain.json",
+		"/Users/kameshs/tmp/liferay_cookbook_pilot/data_bags/credentials_opendj_plain.json",
+		"/Users/kameshs/tmp/liferay_cookbook_pilot/data_bags/credentials/jboss.json",
+		"/Users/kameshs/Projects/kitchen/cookbooks/opendj/.gitignore"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"1",
+			"4",
+			"5050",
+			"5",
+			"4",
+			"BOX_NAME",
+			"bring down",
+			"dc=example,dc=com",
+			"People",
+			"Groups",
+			"10.0.2.2:9080",
+			"software_repo",
+			"web",
+			"config",
+			"- ",
+			"* ",
+			"* liferay-deployer.json                - Liferay Continous Deployment\n* liferay-jboss-mysql.json             - Liferay Portal with JBoss and Mysql\n* liferay-jboss-postgresql.json        - Liferay Portal with JBoss and Postgresql\n* liferay-ee-patching.json             - Liferay Portal Patching role\n* liferay-tomcat-mysql.json            - Liferay Portal with Tomcat and Mysql\n* liferay-tomcat-postgresql.json       - Liferay Portal with Tomcat and Postgresql\n* opendj-standalone.rb                 - installs OPENDJ",
+			"* liferay-deployer.json                - Liferay Continous Deployment\n* liferay-jboss-mysql.json           - Liferay Portal with JBoss and Mysql\n* liferay-jboss-postgresql.json     - Liferay Portal with JBoss and Postgresql\n* liferay-ee-patching.json           - Liferay Portal Patching role\n* liferay-tomcat-mysql.json          - Liferay Portal with Tomcat and Mysql\n* liferay-tomcat-postgresql.json     - Liferay Portal with Tomcat and Postgresql\n* opendj-standalone.rb               - installs OPENDJ",
+			"\n*",
+			"xml",
+			"file",
+			"from",
+			"git",
+			"mysql",
+			"jboss-eap-6.2/",
+			"jboss-eap-6.2",
+			"-6.2",
+			"6.2",
+			"/opt/liferay/jboss-eap-6.2",
+			"jboss-eap-6.2",
+			"jboss",
+			"  \"recipe[chef-sugar]\",\n    \"recipe[java]\",\n    \"recipe[liferay::postgresql]\",\n    \"recipe[liferay::default]\"",
+			"    \"recipe[chef-sugar]\",\n    \"recipe[java]\",\n    \"recipe[liferay::postgresql]\",\n    \"recipe[liferay::default]\"",
+			"    \"",
+			"\"recipe[chef-sugar]\",\n    \"recipe[java]\",\n    \"recipe[liferay::postgresql]\",\n    \"recipe[liferay::default]\"",
+			"update_installed_patches",
+			"\"liferay-fix-pack-document-management-9-6210\",\n\"liferay-fix-pack-platform-20-6210\",\n\"liferay-fix-pack-user-interface-13-6210\",\n\"liferay-fix-pack-development-5-6210\",\n\"liferay-fix-pack-web-content-10-6210\",\n\"liferay-fix-pack-social-networking-3-6210\",\n\"liferay-fix-pack-search-7-6210\",\n\"liferay-fix-pack-wcm-core-13-6210\",\n\"liferay-fix-pack-administration-5-6210\",\n\"liferay-fix-pack-business-productivity-1-6210\",\n\"liferay-fix-pack-dynamic-data-lists-9-6210\",\n\"liferay-fix-pack-misc-4-6210\",\n\"liferay-fix-pack-asset-framework-7-6210\",\n\"liferay-fix-pack-collaboration-10-6210\"",
+			"revert_patches",
+			"Jerry"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"2"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "metadata.rb",
+					"settings":
+					{
+						"buffer_size": 478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								476,
+								476
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"example.l",
+				"cookbooks/opendj/files/default/example.ldif"
+			],
+			[
+				"va",
+				"liferay/.kitchen/kitchen-vagrant/default-ee-centos-64/Vagrantfile"
+			],
+			[
+				"pathing",
+				"liferay/recipes/patching.rb"
+			],
+			[
+				"patch",
+				"liferay/providers/patch.rb"
+			],
+			[
+				"patching",
+				"liferay/recipes/patching.rb"
+			],
+			[
+				"attrib",
+				"liferay/attributes/default.rb"
+			],
+			[
+				"patchn",
+				"liferay/recipes/patching.rb"
+			],
+			[
+				"tomcat",
+				"liferay/recipes/tomcat.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/kameshs/Projects/kitchen/cookbooks/my-deploy-learn/my-deploy-learn.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 277.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,38 @@
+java: &oracle_jdk7
+  install_flavor: oracle
+  jdk_version: 7
+  oracle: 
+    accept_oracle_download_terms: Yes
+
+java: &openjdk7
+  jdk_version: 7
+
+driver:
+  name: vagrant
+  driver_config: 
+    use_vagrant_cachier: Yes
+
+provisioner:
+  name: chef_zero
+  require_chef_omnibus: latest  
+
+platforms:
+  - name: centos-6.5
+    driver:
+      box: 'chef/centos-6.5'
+  - name: ubuntu-14.04
+    driver:
+      box: 'ubuntu/trusty64'
+
+suites:
+
+  - name: default
+    driver:
+     vm_hostname: devenv.example.com
+     customize:
+        memory: 3072
+    run_list:
+       - "recipe[java]"
+       - "recipe[supervisor]"
+       - "recipe[devenv::nexus]"
+    attributes: { "java": *oracle_jdk7 }
