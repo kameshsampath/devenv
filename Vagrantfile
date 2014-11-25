@@ -41,7 +41,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = BOX_NAME 
   
   config.vm.network :forwarded_port, guest: 8081, host: 8081, auto_correct: true
-    
+  config.vm.synced_folder "~/sonatype-work", "/usr/local/sonatype-work", create: true
+
   # Use the specified private key path if it is specified and not empty.
   if SSH_PRIVKEY_PATH
       config.ssh.forward_agent = true
@@ -53,19 +54,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   #Provision the box
   config.vm.provision "chef_solo" do | chef|
+    chef.environments_path = "environments"
+    chef.environment="vagrant"
+    chef.roles_path = ["roles"]
+    chef.add_role("nexus-standalone")  
 
- 
-    chef.json = {
-      'install_flavor' => 'oracle',
-      'jdk_version' => '7',
-      'oracle' => {'accept_oracle_download_terms' => true}
-    }
-
-    chef.run_list = [
-      'recipe[java]',
-      'recipe[supervisor]',
-      'recipe[devenv::nexus]'
-    ]
   end
 
   # VirtualBox configuration

@@ -2,7 +2,7 @@ name		     "devenv"
 maintainer       "Kamesh Sampath"
 maintainer_email "kamesh.sampath@liferay.com"
 license          "GNU LGPL v2.1 or later"
-description      "Installs/Configures Development environment with nexus, maven etc.,"
+description      "Installs/Configures Development environment with nexus, maven etc.,  using chef"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "1.0.0"
 

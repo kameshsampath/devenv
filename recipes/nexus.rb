@@ -63,17 +63,17 @@ supervisor_service "nexus" do
 	startsecs        30
 	stopwaitsecs     30
 	user             "#{node['nexus']['user']}"
-	action           :enable
+	action           [:enable]
 end
 
 ## copy nexus.xml
 cookbook_file "Nexus Configuration" do
   source "#{node['nexus']['version']}/nexus.xml"
-  path "/usr/local/sonatype-work/conf"
+  path "/usr/local/sonatype-work/nexus/conf/nexus.xml"
   owner node['nexus']['user']
   group node['nexus']['group']
-  action :nothing
-  subscribes :create, "supervisor_service[nexus]", :immediately
+  action :create
+  notifies :restart, "supervisor_service[nexus]", :delayed
 end
 
 

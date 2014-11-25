@@ -1,0 +1,16 @@
+{
+  "name": "vagrant",
+  "description": "Vagrant Local Environment",
+  "cookbook_versions": {},
+  "json_class": "Chef::Environment",
+  "chef_type": "environment",
+  "default_attributes": {
+    "java": {
+        "install_flavor": "oracle",
+        "jdk_version": "7",
+        "oracle": {
+          "accept_oracle_download_terms": true
+        }
+    }
+  } 
+}
